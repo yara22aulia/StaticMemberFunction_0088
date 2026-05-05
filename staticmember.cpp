@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa {
+class Mahasiswa 
+{
 public:
     static int nim;   // deklarasi variabel static yaitu variabel nim
 
@@ -24,7 +25,8 @@ public:
 int Mahasiswa::nim = 10;
 
 // mengimplementasikan prosedur - prosedur di luar class
-void Mahasiswa::setID() {
+void Mahasiswa::setID() 
+{
     id = ++nim;
 }
 
