@@ -19,7 +19,8 @@ mahasiswa::mahasiswa()
     // Constructor default tanpa parameter
 }
 
-mahasiswa::mahasiswa(int iNim) {
+mahasiswa::mahasiswa(int iNim) 
+{
     nim = iNim; // definisi hanya NIM
 }
 
