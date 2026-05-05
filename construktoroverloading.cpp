@@ -14,7 +14,8 @@ public:
     void cetak();
 };
 
-mahasiswa::mahasiswa() {
+mahasiswa::mahasiswa() 
+{
     // Constructor default tanpa parameter
 }
 
